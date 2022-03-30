@@ -1,0 +1,70 @@
+@media all and (min-width: 740px) {
+	.side-header {
+		display: none;
+	}
+}
+
+@media all and (max-width: 740px) {
+	.bloc_page {
+		flex-wrap: wrap-reverse;
+	}
+	aside, main {
+		width: 100%;
+		padding: 20px 20px 0px 20px;
+	}
+	h1 {
+		margin-top: 0;
+		font-size: 2.5em;
+	
+	}
+	h2 {
+		font-size: 1.5em;
+	}
+	h4 {
+		font-size: 1.2em;
+		margin-top: 20px;
+	}
+	.content p {
+		text-align: justify;
+		font-size: 1.3em;
+	}
+	.profession {
+		font-size: 1.2em;
+	}
+	.main-header {
+		margin-bottom: 10px;
+	}
+	.my-picture {
+		position: absolute;
+		top: -20px;
+		left: -50px;
+		width: 140px;
+		height: 140px;
+	}
+	.side-header {
+		display: none;
+	}	
+	.content-title {
+		font-size: 1.2em;
+	}
+	.main-header {
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+		flex-direction: column;
+		margin-bottom: 50px;
+	}
+	.skills-content,
+	.training-content {
+		display: inline;
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	.date-skill-box,
+	.date-training-box {
+		margin-top: 20px;
+	}
+}
+@media all and (max-width: 628px) {
+
+}
